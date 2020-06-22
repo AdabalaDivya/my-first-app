@@ -2,7 +2,7 @@
   "name": "my-first-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://AdabalaDivya.github.io/my-first-app",
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
