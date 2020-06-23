@@ -19,7 +19,6 @@ function App() {
       <Route exact path='/' component={Home}/>
       <Route exact path='/resume' component={resume}/>
     </BrowserRouter>
-   <Home/>
    </div>
    </div>
  );
@@ -39,7 +38,7 @@ let profiles=data.profile;
           </div>
              <a href={"tel"+value.basics.phone}>{value.basics.phone}</a><br/>
              <a href={"mailto"+value.basics.email}>{value.basics.email}</a><br/>
-             <Link to={{pathname:'/resume',data:{id:index}}} className="btn btn-primary">view</Link>
+              <Link to={{pathname:'/resume',data:{id:index}}} className="btn btn-primary">view</Link>
           </div>
       </div>
       </div>
