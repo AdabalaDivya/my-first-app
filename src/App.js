@@ -16,15 +16,15 @@ function App() {
    <div className="App">
      <div className="body">
     <BrowserRouter>
-      <Route exact path='/' component={home}/>
+      <Route exact path='/' component={Home}/>
       <Route exact path='/resume' component={resume}/>
     </BrowserRouter>
-   <home/>
+   <Home/>
    </div>
    </div>
  );
 }
- let home=()=>{
+ let Home=()=>{
 let profiles=data.profile;
   return (
     <div className="row justify-content-center">
